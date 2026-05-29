@@ -1,1 +1,155 @@
 
+# index.html
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro forte, futuro sustentável</title>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <h1>Agro forte, futuro sustentável</h1>
+            <p>Equilíbrio entre produção e meio ambiente</p>
+
+            <!-- Botão modo escuro -->
+            <button id="darkModeBtn">Modo Escuro</button>
+        </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section">
+            <div class="container flex">
+
+                <div class="texto">
+                    <h2>Produção e Sustentabilidade</h2>
+
+                    <p>
+                        O agronegócio moderno busca unir tecnologia,
+                        produtividade e preservação ambiental.
+                    </p>
+
+                    <p>
+                        Com práticas sustentáveis, é possível produzir
+                        alimentos de qualidade sem prejudicar o meio ambiente.
+                    </p>
+
+                    <button id="mensagemBtn">
+                        Mostrar Mensagem
+                    </button>
+
+                    <!-- Mensagem dinâmica -->
+                    <p id="mensagem"></p>
+                </div>
+
+                <div class="imagem">
+                    <img
+                        src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop"
+                        alt="Plantação sustentável">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Seção Benefícios -->
+        <section id="beneficios" class="section destaque">
+
+            <h2>Benefícios do Agro Sustentável</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Preservação</h3>
+                    <p>
+                        Proteção dos recursos naturais e da biodiversidade.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Tecnologia</h3>
+                    <p>
+                        Uso de inovação para aumentar a produtividade.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Economia</h3>
+                    <p>
+                        Desenvolvimento econômico aliado à responsabilidade ambiental.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Formulário -->
+        <section id="contato" class="section">
+
+            <div class="container">
+
+                <h2>Entre em Contato</h2>
+
+                <!-- Formulário com validação -->
+                <form id="formulario">
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite seu nome">
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail">
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </form>
+
+                <!-- Resultado da validação -->
+                <p id="resultado"></p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>
+            Projeto Front-End | Agro forte, futuro sustentável
+        </p>
+    </footer>
+
+    <!-- JavaScript externo -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
+
+---
+
